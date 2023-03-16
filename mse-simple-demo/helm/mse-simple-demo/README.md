@@ -11,7 +11,7 @@ At directory `A`/`B`/`C`/`gateway`/`mysql`:
 kubectl create namespace mse-demo
 
 helm install mse-simple-demo mse-simple-demo \
---set images.version=2.0.1 \
+--set images.version=2.0.2 \
 --set mse.application.prefix=demo \
 --set registry=registry.cn-hangzhou.aliyuncs.com/mse-demo-hz/ \
 --namespace=mse-demo
